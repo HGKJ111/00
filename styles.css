@@ -1,0 +1,72 @@
+/* 设置背景 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water'); /* 使用 Unsplash 的随机自然背景图 */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 容器样式 */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#status {
+    margin-top: 20px;
+    color: #333;
+}
+
+#fileList {
+    margin-top: 30px;
+}
+
+#files {
+    list-style-type: none;
+    padding: 0;
+}
+
+#files li {
+    margin: 10px 0;
+}
+
+#files a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#files a:hover {
+    text-decoration: underline;
+}
