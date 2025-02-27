@@ -1,4 +1,4 @@
-const CLOUD_NAME = '你的_cloud_name'; // 替换为你的 Cloud Name
+const CLOUD_NAME = '你的_dkcdeprp1'; // 替换为你的 Cloud Name
 const UPLOAD_PRESET = '你的_upload_preset'; // 替换为你的 Upload Preset
 let uploadedFiles = [];
 
